@@ -1,0 +1,10 @@
+#qrcode
+	{
+	position: fixed;
+	margin-top: -100px;
+	}
+	
+.table-borderless th, .table-borderless td
+	{
+     border-top: none; 
+	}

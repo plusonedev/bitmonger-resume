@@ -1,0 +1,525 @@
+#termsHR
+	{
+	display: none;
+	}
+	
+#footer {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  height: 100px;
+  text-align: center;
+}
+
+.pagenum:before {
+  content: counter(page);
+}
+
+#mainbody
+	{
+	width: 650px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family:"Times New Roman",Georgia,Serif;
+	font:12pt;
+	}
+
+#services
+	{
+	margin-top: -10px;
+	margin-left: 10px;
+	font-size: 10pt;
+	}
+
+#signature
+	{
+	margin-top:	100px;
+	margin-left: 0px;
+	width: 235px;
+	border: 0px;
+	background-color: #000000;
+	}
+
+#sidetext
+	{
+	position: absolute;
+	left: -25px;
+	opacity: 0.4;
+	}
+
+#sidetext img
+	{
+	width: 25px;
+	height: 915px;
+	}
+/*-- Form entry items ------------------------------------------------*/
+
+.entryFont
+	{
+	font-family: 'Cutive Mono', serif;
+	}
+
+#srvName
+	{
+	font-size: 16pt;
+	position: fixed;
+	text-align: center;
+	top: 121px;
+	left: 5px;
+	}
+
+#AccNumber
+	{
+	position: absolute;
+	top: 466px;
+	left: 258px;
+	}
+
+#MeterNumber
+	{
+	position: absolute;
+	top: 486px;
+	left: 257px;
+	}
+
+#Phone
+	{
+	position: absolute;
+	top: 507px;
+	left: 120px;
+	}
+
+#Fax
+	{
+	position: absolute;
+	top: 507px;
+	left: 445px;
+	}
+	
+#Email
+	{
+	position: absolute;
+	top: 528px;
+	left: 122px;
+	}
+
+#srvAddressLine1
+	{
+	position: absolute;
+	top: 418px;
+	left: 60px;
+	}
+	
+#srvAddressLine2
+	{
+	position: absolute;
+	top: 438px;
+	left: 60px;
+	}
+	
+#mailAddressLine1
+	{
+	position: absolute;
+	top: 418px;
+	left: 415px;
+	}
+#mailAddressLine2
+	{
+	position: absolute;
+	top: 438px;
+	left: 415px;
+	}
+	
+	
+/* ----------------------------------------------------------------- */
+	
+#title
+	{
+	position: fixed;
+	top: 45px;
+	left: 40px;
+	width: 650px;
+	width: 650px;
+	text-align: center;
+	font-size: 16pt;
+	font-family:"Times New Roman",Georgia,Serif;
+	}
+
+#buyer
+	{
+	position: fixed;
+	top: 120px;
+	margin-left: 50px;
+	}
+
+#buyerexplain
+	{
+	position: fixed;
+	top: 143px;
+	margin-left: 200px;
+	}
+
+#buyerhr
+	{
+	position: fixed;
+	top: 135px;
+	width: 550px;
+	margin-left: 110px;
+	}
+
+#header
+	{
+	width: 100%;
+	margin-top: -13px;
+	margin-left: auto; 
+	margin-right: auto; 
+	width: 718px;
+	}	
+
+.maintitle
+	{
+	position: fixed;
+	top: 20px;
+	width: 500;
+	font-size: 16pt;
+	font-family:"Times New Roman",Georgia,Serif;
+	}
+
+#terms
+	{
+	position: fixed;
+	top: 150px;
+	left: 50px;
+	width: 640px;
+	}
+
+#custinfo
+	{
+	position: fixed;
+	margin-right: 40px;
+	margin-left: 35px;
+	top: 300px;
+	}
+
+#bottomterms
+	{
+	text-align: justify;
+	position: absolute;
+	top: 550px;
+	left: 50px;
+	width: 630px;
+	}
+
+.formfields
+	{
+	font-weight: bold;
+	}
+
+#addresses
+	{
+	position: absolute;
+	top: 400px;
+	left: 50px;
+	width: 100%
+	}
+
+#serviceHeader
+	{
+	position: absolute;
+	}
+
+#mailingHeader
+	{
+	position: absolute;
+	/*left: 350px;*/
+	right: 50px;
+	}
+
+#serviceFirst
+	{
+	position: absolute;
+	top: 30px;
+	width: 280px;
+	}
+
+#serviceSecond
+	{
+	position: absolute;
+	top: 50px;
+	width: 280px;
+	}
+
+#mailingFirst
+	{
+	position: absolute;
+	top: 30px;
+	/*left: 320px;*/
+	right: 50px;
+	width: 280px;
+	}
+
+#mailingSecond
+	{
+	position: absolute;
+	top: 50px;
+	right: 50px;
+	width: 280px;
+	}
+
+#accInfo
+	{
+	position: absolute;
+	left: 50px;
+	top: 468px;
+	}
+
+#contactInfo
+	{
+	position: absolute;
+	left: 50px;
+	top: 510px;
+	}
+
+#accNumber .hr
+	{
+	margin-top: 18px;
+	display: inline-block; 
+	width: 218px;
+	border-style: solid;
+	border-width: 1px;
+	height: 0px;
+	}
+
+#secondP
+	{
+	position: relative;
+	top: -5px;
+	}
+
+.hr
+	{
+	display: inline-block;
+	border-style: solid;
+	border-width: 1px;
+	height: 0px;
+	}
+
+#podNumber .hr:first-child
+	{
+	margin-top: 18px;
+	display: inline-block; 
+	width: 193px;
+	}
+
+#podNumber .hr:nth-child(2)
+	{
+	position: fixed;
+	top: 505px;
+	left: 563px;
+	width: 78px;
+	}
+
+#mcf
+	{
+	position: absolute;
+	top: 22px;
+	left: 598px;
+	}
+
+#contactInfo .hr:first-child
+	{
+	margin-top: 18px;
+	display: inline-block; 
+	width: 225px;
+	margin-right: 60px;
+	}
+
+#contactInfo .hr:nth-child(2)
+	{
+	position: fixed;
+	top: 528px;
+	left: 426px;
+	width: 248px;
+	}
+
+#contactInfo .hr:nth-child(3)
+	{
+	position: fixed;
+	top: 548px;
+	left: 100px;
+	width: 574px;
+	}
+
+#emailLabel	
+	{
+	position: fixed;
+	top:532px;
+	left: 50px;
+	}
+
+/* Lower seller information at the bottom part of the page */
+
+#seller
+	{
+	position: fixed;
+	top: 820px;
+	left: 50px;
+	}
+
+#sellerDate
+	{
+	position: fixed;
+	top: 850px;
+	left: 50px;
+	}
+
+#sellerDate .hr
+	{
+	margin-top: 16px;
+	width: 220px;
+	}
+
+#sellerHR
+	{
+	position: fixed;
+	top: 895px;
+	left: 50px;
+	width: 255px;
+	}
+
+#sellerSigTitle
+	{
+	position: fixed;
+	top: 895px;
+	left: 88px;
+	font-size: 10;
+	}
+/* ------------------------------------------------------------------------- */
+
+/* Lower date, print, and signature line for the lower customer information */
+#buyerDate
+	{
+	position: fixed;
+	top: 820px;
+	left: 420px;
+	}
+
+#buyerDate .hr
+	{
+	margin-top: 16px;
+	width: 220px;
+	}
+
+#buyerPrint
+	{
+	position: fixed;
+	top: 850px;
+	left: 420px;
+	}
+
+#buyerPrint .hr
+	{
+	margin-top: 16px;
+	width: 220px;
+	}
+
+#buyerHR
+	{
+	position: fixed;
+	top: 895px;
+	left: 420px;
+	width: 255px;
+	}
+
+#buyerSigTitle
+	{
+	position: fixed;
+	top: 895px;
+	left: 418px;
+	font-size: 10;
+	}
+
+#buyerID
+	{
+	position: fixed;
+	top: 930px;
+	left: 350px;
+	font-size: 10;
+	}
+
+#buyerID .hr
+	{
+	margin-top: 16px;
+	width: 264px;
+	}
+/* -------------------------------------------------------------------- */
+
+/* OfficeUse describes the side image for name, category, and filename */
+
+#officeUse
+	{
+	position: fixed;
+	top: 100px;
+	left: 750px;
+	color:#333;
+	border:0px solid red;
+	writing-mode:tb-rl;
+	-webkit-transform:rotate(90deg);
+	-moz-transform:rotate(90deg);
+	-o-transform: rotate(90deg);
+	white-space:nowrap;
+	display:block;
+	bottom:0;
+	width:20px;
+	height:20px;
+	font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+	font-size:24px;
+	font-weight:normal;
+	text-shadow: 0px 0px 1px #333;	
+	}
+
+#officeUse .hr:nth-child(1)
+	{
+	margin-top: 16px;
+	width: 50px;
+	}
+
+#officeUse .hr:nth-child(2)
+	{
+	position: fixed;
+	top: 976px;
+	left: 294px;
+	width: 70px;
+	}
+
+#officeUse .hr:nth-child(3)
+	{
+	position: fixed;
+	top: 976px;
+	left: 435px;
+	width: 243px;
+	}
+
+#officeUse1
+	{
+	position: fixed;
+	top: 962px;
+	left: 258px;
+	font-size: 10;
+	}	
+
+#officeUse2
+	{
+	position: fixed;
+	top: 962px;
+	left: 367px;
+	font-size: 10;
+	}
+/* ------------------------------------------------------------------------------------ */
+#contracknowledge
+	{
+	font-weight: bold;
+	font-family:"Times New Roman",Georgia,Serif;
+	font-size: 12pt;
+	}
